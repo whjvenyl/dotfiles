@@ -5,3 +5,5 @@ __reload_dotfiles() {
   cd .
 }
 alias reload!='__reload_dotfiles'
+
+alias cls='clear' # Good 'ol Clear Screen command
