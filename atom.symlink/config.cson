@@ -1,43 +1,78 @@
 "*":
-  Zen: {}
+  "atom-jsfmt": {}
   "atom-material-ui":
     fonts: {}
-  "autocomplete-plus": {}
+    tabs:
+      compactTabs: true
+    treeView:
+      compactList: true
+    ui:
+      animations: false
+  "atom-typescript": {}
   core:
-    customFileTypes:
-      "source.cpp": [
-        "h"
-      ]
+    audioBeep: false
+    automaticallyUpdate: false
     disabledPackages: [
-      "markdown-preview"
+      "language-objective-c"
+      "language-toml"
+      "metrics"
+      "spell-check"
+      "welcome"
+      "background-tips"
+      "exception-reporting"
+      "html2haml"
+      "language-c"
+      "language-go"
+      "language-make"
+      "language-perl"
+      "language-php"
+      "package-generator"
+      "release-notes"
+      "bezier-curve-editor"
+      "wrap-guide"
     ]
     themes: [
-      "atom-material-ui"
-      "solarized-dark-syntax"
+      "nord-atom-ui"
+      "nord-atom-syntax"
     ]
   editor:
+    fontFamily: "Fira Code"
     invisibles: {}
+    scrollPastEnd: true
+    showIndentGuide: true
     softWrap: true
-    softWrapAtPreferredLineLength: true
-    tabLength: 4
+    tabType: "soft"
+  emmet: {}
   "exception-reporting":
-    userId: "f66e1044-d904-5c31-3ec2-1cb9fec28b42"
-  "file-header":
-    autoAddingHeaderEnabled: false
-    email: "chirag.raman@gmail.com"
-    license: "Copyright (C) 2016 Multicomp Lab. All rights reserved."
-    realname: "Chirag Raman"
-    username: "chirag"
-  linter:
-    showErrorPanel: false
-  "linter-jshint": {}
-  minimap:
-    plugins:
-      "highlight-selected": true
-      "highlight-selectedDecorationsZIndex": 0
-  "save-session":
-    dataSaveFolder: "/Users/chiragraman/.dotfiles/atom.symlink/packages/save-session/projects"
-  "tool-bar":
-    position: "Left"
+    userId: "abdcc898-2e75-27c0-0379-20773d3a6a0c"
+  "file-icons":
+    coloured: false
+    onChanges: true
+    tabPaneIcon: false
+  jshint:
+    validateOnlyOnSave: true
+  linter: {}
+  "linter-eslint": {}
+  "markdown-preview":
+    grammars: [
+      "source.gfm"
+      "source.litcoffee"
+      "text.plain"
+      "text.plain.null-grammar"
+    ]
+  "merge-conflicts": {}
+  metrics:
+    userId: "f242d82928d961b51a30b1a727a7b7b40faea6d0"
+  minimap: {}
+  pigments: {}
+  "release-notes":
+    viewedVersion: "0.92.0"
+  "split-diff":
+    ignoreWhitespace: true
+  "tree-view":
+    showOnRightSide: true
+  "unity-ui":
+    colorStatusIndicatorsInTreeView: true
+    showIcons: true
   welcome:
     showOnStartup: false
